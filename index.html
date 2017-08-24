@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Giftastic</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans|Shrikhand" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<script  src="https://code.jquery.com/jquery-3.2.1.min.js"  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+</head>
+<body>
+	<div class="page-header">
+  		<h1>Giftastic! <small>Search for something and generate .gifs!</small></h1>
+	</div>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4">
+				<form class="form-inline">
+				  	<div class="form-group">
+				    	<label for="search">Search: </label>
+				    	<input type="search" class="form-control" id="searchTxt" placeholder="Type something...">
+				  	</div>
+				  	<button type="submit" class="btn btn-default" id="submitBtn">Submit</button>
+				</form>
+			</div>
+			<div class="col-md-8">
+				<div class="buttons"></div>
+			</div>
+		</div>
+	</div>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div id="gifs"></div>
+			</div>
+		</div>
+	</div>
+
+
+
+	<script type="text/javascript" src="assets/javascript/logic.js"></script>
+</body>
+</html>

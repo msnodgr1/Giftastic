@@ -1,0 +1,33 @@
+body{
+	background-color: #C8D3D5;
+}
+
+.page-header {
+	background-color: #69A2B0;
+	color: #fff;
+	padding-top: 1px;
+}
+
+.page-header h1{
+	font-family: 'Shrikhand', cursive;
+	text-align: center;
+}
+
+.page-header small{
+	font-family: 'Open Sans', sans-serif;
+	color: #fff;
+}
+
+.form-group {
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+}
+
+button{
+	margin: 5px;
+}
+
+.gifWrapper{
+	float: left;
+	margin: 20px;
+}
