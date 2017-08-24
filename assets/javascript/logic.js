@@ -1,3 +1,6 @@
+//Mark Snodgrass
+//Week 6 Giftastic homework
+
 var topics = ["wrestling", "ric flair", "stone cold", "macho man", "kurt angle", "mark henry", "hulk hogan", "john cena", "undertaker"];
 
 
@@ -26,10 +29,7 @@ $("#submitBtn").on("click", function(event){
 
 	var userInput = $("#searchTxt").val().trim();
 
-
-
 	topics.push(userInput);
-
 
 	renderButtons();
 	$("#searchTxt").val('');
@@ -45,12 +45,7 @@ $(document).on('click', ".renderedBtn", function(){
 	
 	var arraySelect = $(this).text();
 
-
-
-	
 	var topicStr = arraySelect.replace(/ /g, '+');
-
-
 
 	var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + topicStr + 
 	"&api_key=79a6a256a3fa4401870a9d50816a34b1&limit=10";
