@@ -7,4 +7,4 @@ Search for any .gif topic and twelve new .gifs will appear and a button will pop
 
 Make sure to click each .gif for a preview!
 
-![Giftastic image 1](https://github.com/msnodgr1/images/blob/master/giftastic.PNG)
+![Giftastic image 1](https://github.com/msnodgr1/images/blob/master/giftastic.png)
